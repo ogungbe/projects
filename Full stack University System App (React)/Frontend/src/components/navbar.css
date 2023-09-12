@@ -1,0 +1,37 @@
+/* navbar.css */
+
+/* Container for the Navbar */
+.Navbar {
+  background-color: #007bff; /* Set the background color */
+  padding: 10px; /* Add some padding */
+}
+
+/* Style the unordered list (ul) inside the Navbar */
+.Navbar ul {
+  list-style-type: none; /* Remove the bullet points */
+  display: flex; /* Display the list items in a row */
+  justify-content: center; /* Center align the list items horizontally */
+}
+
+/* Style the list items (li) inside the Navbar */
+.Navbar li {
+  margin-right: 10px; /* Add some spacing between the list items */
+}
+
+/* Style the links (a) inside the Navbar */
+.Navbar a {
+  color: #fff; /* Set the text color */
+  text-decoration: none; /* Remove the underline */
+  transition: color 0.3s; /* Add a transition effect for color change */
+}
+
+/* Style the links (a) on hover inside the Navbar */
+.Navbar a:hover {
+  color: black; /* Update the color to black */
+}
+
+
+/* navbar.css */
+.Navbar .nav-link .dtexts {
+  color: black; /* Update the color to black */
+}
