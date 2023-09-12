@@ -13,18 +13,15 @@ function CustomerDetailsPage() {
       setCustomer(customerData);
     }
 
-
     async function fetchOrdersData() {
       const ordersResponse = await fetch(`http://127.0.0.1:8000/api/order/?customer=${id}`);
       const ordersData = await ordersResponse.json();
       setOrders(ordersData);
     }
 
-
     fetchCustomerData();
     fetchOrdersData();
   }, [id]);
-
 
   const displayOrders = () => {
     const matchingOrders = orders.filter(order => order.customer.id === customer.id);
@@ -39,7 +36,6 @@ function CustomerDetailsPage() {
     ));
   };
   
-
 
   return (
     <div className="CustomerDetailsPage">
