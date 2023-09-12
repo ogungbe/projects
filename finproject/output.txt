@@ -1,0 +1,21 @@
+Alice
+- URI: https://example.com/alice
+- Followers: Bob, Charlie, 
+- Following: Bob, Charlie, 
+
+Bob
+- URI: https://example.com/bob
+- Followers: Alice, Charlie, 
+- Following: Alice, Charlie, 
+
+Charlie
+- URI: https://example.com/charlie
+- Followers: Alice, Bob, 
+- Following: Alice, Bob, 
+
+Sent messages:
+Message from Alice to Bob: Hello Bob!
+Message from Charlie to Alice: Hi Alice!
+Liker: Alice
+Object Creator: Bob
+Object Content: hey guys welcome to my daily vlog!

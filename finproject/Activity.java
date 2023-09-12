@@ -1,0 +1,3 @@
+interface Activity {
+    String getURI();
+}

@@ -1,0 +1,17 @@
+My project includes developing a Java program that simulates a social media platform with basic functionality, e.g creating user profiles, sending and receiving messages, following and liking objects, and handling stream objects with content and creators. 
+
+
+
+One of the strengths of my project is the clean and object-oriented design. I have used classes to represent different things, such as Person, Message, Like, and StreamObject. This allows for easy management and manipulation of objects, and promotes code reusability and maintainability. I have also tried my best to utilize appropriate data structures, such as ArrayList and List, to store and manage collections of objects.
+
+
+Although I didn’t use JUnit to test my work I used manual testing by running the program with various inputs to verify its functionality and identify any potential bugs and issues. This testing approach has helped me uncover and fix several bugs, ensuring that the program runs as intended.
+
+
+In terms of areas that may lack or suffer, one potential improvement could be improving the error handling and input validation in the program. Although I have implemented some basic error checks, such as checking for null values, there may be additional edge cases or invalid inputs that are not handled properly. If I had the adequate time I would make the program more robust and user-friendly. I would also use more complex structures to store data like HashMap or HashSet, which could improve the performance of operations, such as searching and retrieval, and make the program more better but for this scale project its ok.
+
+If I had more time or interest, I would also consider adding more features to the social media platform. Also id have loved to somehow be able to see what was in the inbox.. much like a normal app like instagram.
+
+During the development of this project, I used various online resources, including Java documentation, online YouTube tutorials, and forums, to learn and understand different concepts and to see what would suit my system better.  Biggest problem I had was extending some of my classes and if it was legal to do so and if not finding a way around It .I also sought help from my peers, which provided valuable insight. 
+
+
