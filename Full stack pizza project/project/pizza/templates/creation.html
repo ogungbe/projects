@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}
+  <u>All Pizzas</u>
+{% endblock %}
+
+{% block content %}
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Create Pizza</button>
+    </form>
+{% endblock %}

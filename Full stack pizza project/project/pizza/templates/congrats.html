@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+  <p><b>{{Pizza.pizza_sizes}} </b><p>
+
+{% endblock %}
+
+{% block content %}
+ <!-- the page title goes here --> 
+   <p> Author: {{ Pizza }} </p> 
+   <p> Author: {{ pizza }} </p> 
+   <p> Author: {{ pizza.pizza_sizes }} </p> 
+  
+  <!-- content specific to this page goes here --> 
+{% endblock %}
